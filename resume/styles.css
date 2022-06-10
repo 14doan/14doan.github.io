@@ -33,19 +33,27 @@ html{
 /*980/16=61.25 */
 @media(max-width:61.25em){
   html{
-    font-size:57.5%;
+    font-size:50.5%;
+  }
+  .welcome-section > p{
+    text-align:center;
+    max-width: 400px;
   }
 }
 /*460/16=28.75*/
 @media(max-width:28.75em){
   html{
-    font-size:55%;
+    font-size:45%;
   }
   .nav{
     justify-content: center;
   }
   .nav-list{
     margin:0 1rem;
+  }
+  .welcome-section > p{
+    text-align:center;
+    max-width: 300px;
   }
 }
 
@@ -127,7 +135,7 @@ img{
 .welcome-section > p{
   font-size:2rem;
   text-align:center;
-  width: 80%;
+  width: 600px;
 }
 
 /*PROJECT AREA*/
