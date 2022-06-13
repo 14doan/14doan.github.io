@@ -99,6 +99,10 @@ img{
   box-shadow:0 2px 0 rgba(0,0,0,0.4);
   z-index:10;
 }
+
+.nav-name{
+  color:white;
+}
 .nav-list{
   display:flex;
   margin-right:2rem;
@@ -228,6 +232,9 @@ img{
 }
 .contact-section-header > h2{
   font-size:5rem;
+}
+.contact-section-header >p{
+  text-align:center;
 }
 @media(max-width:28.75em){
   .contact-section-header > h2{
